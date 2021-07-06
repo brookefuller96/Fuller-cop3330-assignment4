@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ToDo{
+main()
+start()
+
+}
+
+
+javafx.Application <|-- Todo
+
+ToDo -- Controller
+
+@enduml
